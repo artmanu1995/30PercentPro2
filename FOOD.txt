@@ -1,0 +1,26 @@
+﻿objUserTABLE.addValueToUser("art", "1234", "จักรกฤษณ์ คำมา");
+objUserTABLE.addValueToUser("earth", "1234", "วโรตม์ คำมา");
+objUserTABLE.addValueToUser("ass", "1234", "สุรชัย คำมา");
+objUserCookTABLE.addValueToUserCook("nang", "1234", "พรศิริ คำมา");
+        objFoodTABLE.addValueToFood("01","ตำถาด", "150");
+        objFoodTABLE.addValueToFood("02","ตำทะเล", "60");
+        objFoodTABLE.addValueToFood("03","ตำปูม้า", "50");
+        objFoodTABLE.addValueToFood("04","ตำกุ้งสด", "50");
+        objFoodTABLE.addValueToFood("05","ตำมั่ว", "50");
+        objFoodTABLE.addValueToFood("06","ตำไทย", "40");
+        objFoodTABLE.addValueToFood("07","ตำปูปลาร้า", "40");
+        objFoodTABLE.addValueToFood("08","ตำถั่ว", "40");
+        objFoodTABLE.addValueToFood("09","ตำเเตง", "40");
+        objFoodTABLE.addValueToFood("10","ตำลาว", "40");
+        objFoodTABLE.addValueToFood("11","แคบหมู", "20");
+        objFoodTABLE.addValueToFood("12","ปลาทอด", "30");
+        objFoodTABLE.addValueToFood("13","หมูทอดกระเทียม", "30");
+        objFoodTABLE.addValueToFood("14","ไก่ทอด", "30");
+        objFoodTABLE.addValueToFood("15","ไก่ย่าง", "30");
+        objFoodTABLE.addValueToFood("16","ขนมจีน", "20");
+        objFoodTABLE.addValueToFood("17","ข้าวเหนียว", "10");
+        objFoodTABLE.addValueToFood("18","น้ําลําไย", "20");
+        objFoodTABLE.addValueToFood("19","น้ําเก๊กฮวย", "20");
+        objFoodTABLE.addValueToFood("20","น้ํามะพร้าว", "20");
+
+INSERT INTO `food` (`food_id`, `food_name`, `food_price`, `category_id`) VALUES ('01', 'ตำถาด', '150', '1'),('02', 'ตำทะเล', '60', '1'),('03', 'ตำปูม้า', '50', '1'), ('04', 'ตำกุ้งสด', '50', '1'), ('05', 'ตำมั่ว', '50', '1'), ('06', 'ตำไทย', '40', '1'), ('07', 'ตำปูปลาร้า', '40', '1'), ('08', 'ตำถั่ว', '40', '1'), ('09', 'ตำเเตง', '40', '1'), ('10', 'ตำลาว', '40', '1');
